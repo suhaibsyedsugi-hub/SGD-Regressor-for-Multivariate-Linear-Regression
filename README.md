@@ -50,7 +50,7 @@ Use metrics such as r2_score and mean_squared_error to check performance.
 Print actual vs predicted values for better understanding.
 
 ## Program:
-python
+```python
 # Import libraries
 import numpy as np
 import pandas as pd
@@ -122,7 +122,7 @@ print("MSE:", mean_squared_error(y_test, y_pred))
 print("\nActual vs Predicted:")
 for actual, predicted in zip(y_test, y_pred):
     print(f"Actual: {actual}, Predicted: {predicted.round(2)}")
-
+```
 
 
 
